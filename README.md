@@ -3,6 +3,7 @@
 ### Introduction
 By analyzing comprehensive traffic data from Heidelberg's public data portal, this project aims to decipher traffic patterns and predict future trends. Our objective is to optimize traffic flows, reduce congestion, and enhance urban planning. This involves using Time Series models to forecast traffic volumes. Through the integration of SARIMAX and Prophet models, I focus on predicting traffic intensity across different times and conditions, thereby contributing to smarter urban environments and sustainable city planning.
 
+The project was conducted within a one-week timeframe.
 
 ### Data Description
 The dataset contains an observation of the traffic flow at a specific place and time. It contains current and past measurements from traffic cameras in the city of Heidelberg (measurement interval: 15 min).
