@@ -24,10 +24,10 @@ Since we have a sufficient amount of data, I have decided to allocate a larger p
 ### Selection of Models for Traffic Analysis:
  **SARIMAX** and **Prophet** models were chosen to forecast traffic volumes with daily frequency for two selected locatins: Bergheimer Street and Lessing Street.These case studies provide a granular look at urban traffic dynamics, offering actionable insights for urban development, transport management, and infrastructure planning. The chosen statistical time series models are integral for enhancing urban traffic management and aiding in strategic urban planning.
 
-For **Bergheimer Str.** Between the two selected time serries models, the optimized and and fine-tuned SARIMAX Modelperformed better with the following metrics with the following metrics:
-Mean Absolute Error (MAE): 33.35, Root Mean Squared Error (RMSE): 43.861, Mean Absolute Scaled Error (MASE): 0.44%
+For **Lessingstr.** Between the two selected time serries models, the optimized and and fine-tuned Prophet model performed better  and recorded a MAPE of 16.62% and a MASE of 0.44%, MAE of 8.26 and RMSE of 9.927<br>
+For **Bergheimer Str.** Between the two selected time serries models, the optimized and and fine-tuned SARIMAX Model performed better with the following metrics:
+ Mean Absolute Scaled Error (MASE): 0.44%, Mean Absolute Error (MAE): 33.35, Root Mean Squared Error (RMSE): 43.861
 
-For **Lessingstr.** Between the two selected time serries models, the optimized and and fine-tuned Prophet model performed better  and recorded a MAPE of 16.62% and a MASE of 0.44%, MAE of 8.26 and RMSE of 9.927
 
 Future enhancements could involve including additional external factors such as weather conditions, and exploring hybrid models to further refine predictions, although suitable weather data was not available within the project timeframe.
 
